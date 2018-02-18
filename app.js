@@ -1,5 +1,6 @@
 
 
+console.log('day la feature/b1');
 var express = require('express'),
   config = require('./config/config'),
   glob = require('glob'),
