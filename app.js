@@ -12,7 +12,7 @@ db.on('error', function () {
   throw new Error('unable to connect to database at ' + config.db);
   console.log("dsay la daad branch 2")
 })
-var cc ="12"
+var cc ="14"
 var models = glob.sync(config.root + '/app/models/*.js');
 models.forEach(function (model) {
   require(model);
